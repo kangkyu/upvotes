@@ -3,4 +3,4 @@ module Hello where
 import Html
 
 main =
-  Html.text "Hello!"
+  Html.text "Hello Aram!"

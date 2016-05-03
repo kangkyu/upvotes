@@ -20,4 +20,6 @@ import "phoenix_html"
 
 // import socket from "./socket"
 
-Elm.fullscreen(Elm.Hello);
+// Elm.fullscreen(Elm.Hello);
+const elmDiv = document.querySelector('#elm-container')
+Elm.embed(Elm.Hello, elmDiv)
